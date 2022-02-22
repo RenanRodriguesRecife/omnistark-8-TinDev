@@ -1,5 +1,5 @@
 const express = require('express');
-const { default: mongoose } = require('mongoose');
+const mongoose = require('mongoose');
 const routes = require('./routes');
 const server = express();
 
