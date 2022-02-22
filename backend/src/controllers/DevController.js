@@ -25,3 +25,5 @@ module.exports = {
         return res.json(dev);
     }
 }
+
+// INDEX, SHOW, STORE, UPDATE, DELETE
