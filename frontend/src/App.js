@@ -4,10 +4,13 @@ import logo from './assets/logo.svg';
 
 function App() {
   return (
-    <>
-   <img src={logo} alt="Tindev"/>
-   <h1> Tindev</h1>
-   </>
+   <div className="login-container">
+     <form>
+      <img src={logo} alt="Tindev"/>
+      <input placeholder="Digite seu usuário no Github"/>
+      <button type="submit">Enviar</button>
+     </form>
+   </div>
   );
 }
 
