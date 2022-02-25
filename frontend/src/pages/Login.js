@@ -4,12 +4,13 @@ import './Login.css';
 
 import logo from '../assets/logo.svg';
 
-function Login(){
+function Login({history}){
     const [username,setUsername] = useState('');
 
     function handleSubmit(e){
       e.preventDefault();
       console.log(username)
+      history.push('/main')
     }
 
     return(
