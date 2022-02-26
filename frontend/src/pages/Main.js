@@ -26,6 +26,41 @@ export default function Main({match}){
                         </button>
                     </div>
                 </li>
+
+
+                <li>
+                    <img src="teste" alt=""/>
+                    <footer>
+                        <strong>NOme</strong>
+                        <p>descricao</p>
+                    </footer>
+                    <div className='buttons'>
+                        <button type="button">
+                            <img src={dislike} alt="Dislike"/>
+                        </button>
+                        <button type="button">
+                            <img src={like} alt="Like"/>
+                        </button>
+                    </div>
+                </li>
+
+
+                <li>
+                    <img src="teste" alt=""/>
+                    <footer>
+                        <strong>NOme</strong>
+                        <p>descricao</p>
+                    </footer>
+                    <div className='buttons'>
+                        <button type="button">
+                            <img src={dislike} alt="Dislike"/>
+                        </button>
+                        <button type="button">
+                            <img src={like} alt="Like"/>
+                        </button>
+                    </div>
+                </li>
+
             </ul>
         </div>
     )
