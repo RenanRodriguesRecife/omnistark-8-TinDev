@@ -7,16 +7,23 @@
  */
 
 import React from 'react';
-import {  Text } from 'react-native';
+import {  View, Text, StyleSheet } from 'react-native';
 
 
-
-const App = () => {
+export default function App(){
   
   return (
-    <Text>Hello world</Text>
+    <View style={styles.container}>
+       <Text>Hello world</Text>
+    </View>
+   
   );
 };
 
-
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex:1,
+     backgroundColor: '#7159c1',
+      justifyContent: 'center'
+    },
+})
