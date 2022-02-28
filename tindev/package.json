@@ -10,8 +10,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "fbjs": "^3.0.4",
     "react": "17.0.2",
-    "react-native": "0.67.3"
+    "react-native": "0.67.3",
+    "react-native-gesture-handler": "1.3.0",
+    "react-native-reanimated": "1.2.0",
+    "react-navigation": "3.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
